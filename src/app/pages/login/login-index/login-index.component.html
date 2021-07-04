@@ -1,0 +1,9 @@
+<div class="container" [hidden]="showCad">
+
+  <app-login ></app-login>
+  <span><button  (click)="showCad = true">Ou cadastre-se</button></span>
+</div>
+<div class="container" [hidden]="!showCad">
+  <app-sign-up></app-sign-up>
+  <button type="button" class="btn btn-danger" (click)="showCad = false">Voltar</button>
+</div>

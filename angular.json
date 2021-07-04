@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fiiManager"
+    }
+  },
+  "defaultProject": "fiiManager",
+  "cli": {
+    "analytics": "5c9c55ff-bd5d-465f-9e84-5b73d775b4f0"
+  }
 }
