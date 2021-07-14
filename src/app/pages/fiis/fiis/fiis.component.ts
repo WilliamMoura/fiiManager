@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FiisComponent implements OnInit {
 
+
+  countries: any[];
+  page = 1;
+  pageSize = 4;
+  collectionSize = 0;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  refreshCountries() {
+    this.countries = [];
   }
 
 }

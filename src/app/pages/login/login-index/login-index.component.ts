@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login-index.component.sass']
 })
 export class LoginIndexComponent implements OnInit {
-  private showCad: boolean = false;
+  public showCad: boolean = false;
   constructor() { }
 
   ngOnInit(): void {
